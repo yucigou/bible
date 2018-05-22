@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<script type="text/javascript" src="../js/const.js"></script>
+		<script type="text/javascript" src="../js/const_gb2312.js"></script>
+		<script type="text/javascript" src="../js/union.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	</head>
+
+	<body onload="initPage()">
+		<!-- <body> -->
+		<table class="control_panel">
+			<tbody>
+				<tr>
+					<td class="select_form">
+						<form style="margin:0;" method="post" name="sbook_form"
+							onsubmit="readChapter(document.sbook_form.ot_book.value, document.sbook_form.ot_chapter.value); return false;">
+							<select name="ot_book" id="select_book_id" OnChange="setChapter(this.value, 'select_chapter_id')"></select>
+							<select name="ot_chapter" id="select_chapter_id"></select>&nbsp;
+							<input class="btn" type="submit" value="阅读" name="ot_read">
+							<input type="checkbox" value="BEV" name="basic_english" id="checkbox_bev_id" onclick="setBevBox(this.checked)" title="Basic English Version"><span title="Basic English Version">BEV</span>
+							<input type="checkbox" value="NIV" name="niv" id="checkbox_niv_id" onclick="setNivBox(this.checked)" title="New International Version"><span title="New International Version">NIV</span>
+							<input type="checkbox" value="KJV" name="kjv" id="checkbox_kjv_id" onclick="setKjvBox(this.checked)" title="King James Version"><span title="King James Version">KJV</span>
+						</form>
+					</td>
+					<td class="navigation_link">
+						<span class="navigation_link" id="last_chapter"></span>
+					</td>
+					<td class="navigation_link">
+						<span class="navigation_link" id="next_chapter"></span>
+					</td>
+					<td class="search_form">
+						<form style="margin:0;" method="post" name="search_form" onsubmit="search4verses(document.search_form.versionToSearch.value, document.search_form.search_box.value); return false;">
+						<input type="text" size="20" name="search_box">
+						<select size="1" name="versionToSearch">
+							<option selected value="CUV">和合本</option>
+							<option value="BEV">BEV</option>
+							<option value="NIV">NIV</option>
+							<option value="KJV">KJV</option>
+						</select>
+						<input class="btn" type="submit" value="查询" name="search"> 
+						</form>
+					</td>
+					<td class="other_version">
+						<a href="../tcuv.html" target="_top">繁體版</a>
+					</td>
+					<td class="help">
+						<img alt="Note" src="../image/question_mark.jpeg" title="Notes" style="cursor:pointer" onclick="showNote()">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

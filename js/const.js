@@ -1,0 +1,16 @@
+var FIRST_BOOK_NO 					= 1;
+var FIRST_CHAPTER_NO 				= 1;
+var FIRST_NT_BOOK_NO				= 40;
+var OLD_TESTAMENT					= "OT";
+var NEW_TESTAMENT					= "NT";
+var RESULT_PAGE_SIZE				= 100;
+var BIBLE_CUV_GB2312				= "cuv-gb2312";
+var BIBLE_CUV_BIG5					= "cuv-big5";
+var UNION_XML_FILENAME_NIV			= "../xml/niv.xml";
+var UNION_XML_FILENAME_BEV			= "../xml/bbe.xml";
+var UNION_XML_FILENAME_KJV			= "../xml/kjv.xml";
+var VERSION_CUV						= "CUV";
+var VERSION_NIV 					= "NIV";
+var VERSION_BEV						= "BEV";
+var VERSION_KJV						= "KJV";
+var ALERT_INPUT_ENGLISH				= "Please input English words";

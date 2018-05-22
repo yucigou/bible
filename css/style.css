@@ -1,0 +1,130 @@
+table.control_panel {
+	border: 0;
+	border-spacing: 1px;
+	float: none;
+	position: static;
+}
+
+td.navigation_link {
+	background-color: #91a3bc;
+	width: 80px;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 4px;
+	height:20px;
+	line-height:20px;
+}
+
+td.other_version {
+	padding-right: 4px;
+	width: 60px;
+	text-align: right;
+	vertical-align: top;
+	padding-top: 3px;
+	font-size: 13px;
+}
+
+td.help {
+	width: 30px;
+	text-align: right;
+	vertical-align: top;
+}
+
+td.select_form {
+	background-color: #91a3bc;
+	width: 400px;
+	text-align: center;
+	font-size: 10px;
+}
+
+td.search_form {
+	background-color: #91a3bc;
+	width: 300px;
+	text-align: center;
+	font-size: 10px;
+}
+
+td.index {
+	padding-right: 4px;
+	background-color: #F0F8FF;
+	width: 56px;
+	text-align: center;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+td.abbr {
+	padding-left: 4px;
+	background-color: #F0F8FF;
+	width: 37px;
+	text-align: left;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+td.verse_no {
+	padding-right: 7px;
+	background-color: #F0F8FF;
+	width: 29px;
+	text-align: right;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+td.version {
+	padding-right: 7px;
+	background-color: #F0F8FF;
+	width: 40px;
+	text-align: right;
+	vertical-align: top;
+	font-size: 10px;
+}
+
+td.cn_version {
+	padding-right: 7px;
+	background-color: #F0F8FF;
+	width: 40px;
+	text-align: right;
+	vertical-align: top;
+	font-size: 12px;
+}
+
+td.first_verse {
+	background-color: #FBFBFB;
+}
+
+input.btn	 {
+	vertical-align: top;
+}
+
+h1 {
+	font-size: 28px;
+	color: #B22222;
+	text-align: left;
+}
+
+span.navigation_link {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+span.verses {
+	font-weight: normal;
+}
+
+span.title_en {
+	font-size: 22px;
+}
+
+span.pattern {
+	font-weight: bold;
+	color: Red;
+}
+
+span.abbr {
+	color: #B22222;
+}
+
+a.navigation_link {
+	color: #B22222;
+}
