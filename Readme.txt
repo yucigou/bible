@@ -1,7 +1,7 @@
 Software: 	Offline Bible Search Tool
 Version: 	1.7
 Date: 		05 May 2009
-Author: 	brother.yuci@googlemail.com [1]
+Author: 	Brother Yuci
 			Christian, Cambridge, UK
 
 Running Environment:
@@ -35,5 +35,3 @@ Acknowledgements:
 Future Work:
     * Support more Bible versions, e.g., NKJV, ESV (English Standard Version), Chinese New Translation Version and so on, if available.
     * Able to add notes.
-
-[1] Please drop me an email for any suggestions, advice or bug reports, which I will really much appreciate. Thank you.
