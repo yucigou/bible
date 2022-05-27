@@ -5,7 +5,7 @@ table.control_panel {
 	position: static;
 }
 
-tr:nth-child(odd) {
+span.verses tr:nth-child(odd) td:first-child {
     background-color: #F0F8FF;
 }
 
@@ -94,7 +94,7 @@ td.cn_version {
 }
 
 td.first_verse {
-	background-color: #FBFBFB;
+	background-color: #F0F8FF;
 }
 
 input.btn	 {

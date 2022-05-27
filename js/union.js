@@ -412,7 +412,11 @@ function getContent(bnum, cnum, highlight_vnum) {
 						if (g_bevOn || g_kjvOn || g_nivOn) {
 							html_verses += "<td class='first_verse'>" + verse + "</td></tr>";
 						} else {
-							html_verses += "<td>" + verse + "</td></tr>";
+							if (k % 2) {
+								html_verses += "<td>" + verse + "</td></tr>";
+							} else {
+								html_verses += "<td class='first_verse'>" + verse + "</td></tr>";
+							}
 						}						
 					}
 
