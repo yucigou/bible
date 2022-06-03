@@ -673,7 +673,7 @@ function search4verses(version_name, text) {
 
 
 function popup_chapter(pbook_no, pchapter_no, pverse_no) {
-	var navDoc = parent.navigation.document;
+	var navDoc = parent.navigationFrame.document;
 	if (navDoc.getElementById("checkbox_bev_id").checked) {
 		g_bevOn = true;
 		if (!g_bevXmlDoc) {
